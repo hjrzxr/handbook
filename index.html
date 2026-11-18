@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>安徽大学学生手册（2024）· 全文检索</title>
+<meta name="description" content="安徽大学学生手册 2024 版全文检索：奖学金、处分、学籍、宿舍、医保、推免等规章条款一搜即达。" />
+<meta name="theme-color" content="#12376b" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="学生手册" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="apple-touch-icon" href="assets/icon-180.png" />
+<link rel="icon" href="assets/icon-192.png" />
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<header class="topbar" id="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#/" aria-label="返回首页">
+      <span class="brand-mark">安</span>
+      <span class="brand-text">安徽大学学生手册<em>2024</em></span>
+    </a>
+
+    <form class="search" id="searchForm" role="search" autocomplete="off">
+      <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M16.5 16.5 21 21"></path></svg>
+      <input id="q" name="q" type="search" placeholder="搜索条款、关键词，如“奖学金”“考试作弊”“转专业”" aria-label="搜索学生手册" />
+      <button type="button" class="clear-btn" id="clearBtn" aria-label="清空" hidden>&times;</button>
+      <kbd class="hint">/</kbd>
+    </form>
+
+    <nav class="topnav">
+      <a href="#/" class="nav-link" data-nav="home">检索</a>
+      <a href="#/toc" class="nav-link" data-nav="toc">目录</a>
+      <a href="#/about" class="nav-link" data-nav="about">关于</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main"></main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <p class="footer-title">安徽大学学生手册（2024）· 全文检索站</p>
+    <p class="footer-note">正文由 PDF 文本层与 OCR 识别整理，个别字词可能存在识别误差；条款以学校官方发布文件为准。</p>
+    <p class="footer-meta" id="footerMeta"></p>
+  </div>
+</footer>
+
+<script src="assets/data.js"></script>
+<script src="assets/search.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
